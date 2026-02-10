@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
+//CS4084 Zian Wang 24092975 Assignment Hello World
 public class MainActivity extends AppCompatActivity {
 
     @Override
