@@ -13,7 +13,7 @@
         android:id="@+id/myTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Hello World!\nMy name is Zian Wang"
         android:textSize="30sp"
         android:layout_marginBottom="30dp" />
 
