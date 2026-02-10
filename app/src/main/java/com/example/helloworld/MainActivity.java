@@ -25,13 +25,13 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        // 1. 绑定 XML 中的组件
+        // 1. binding XML
         TextView myTextView = findViewById(R.id.myTextView);
         Button btnRed = findViewById(R.id.btnRed);
         Button btnGreen = findViewById(R.id.btnGreen);
         Button btnClear = findViewById(R.id.btnClear);
 
-        // 2. 设置红色按钮点击事件
+        // 2. set red button
         btnRed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 3. 设置绿色按钮点击事件
+        // 3. set green button
         btnGreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 4. 设置清除（恢复）按钮点击事件
+        // 4. set clear button
         btnClear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 恢复为默认黑色
+                // the default color is black
                 myTextView.setTextColor(Color.BLACK);
             }
         });
